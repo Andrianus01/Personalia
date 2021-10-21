@@ -1,0 +1,155 @@
+body{
+    background-color:#7cc0d8;
+    background-position: center;
+    margin: 0;
+}
+.header{
+    text-align: center;
+}
+.header img{
+    height: 60px;
+    width: 200px;
+    margin-top: 5px;
+    margin-left: 5px;
+   }
+
+ .body{
+     background-color:black ;
+     display: flex;
+     height: 900px;
+ }  
+ .kiri{
+     list-style-type: none;
+     padding: 10px;
+ 
+ }
+ .kiri a{
+     text-decoration: none;
+     color: white;
+     font-size: 15px;
+     
+ }
+ .link{
+    position: relative;
+    list-style-type: none;
+    padding: 10px;
+    padding-top: 100px;
+ }
+.link a{
+    text-decoration: none;
+     color: white;
+     font-size: 18px;
+}
+
+
+ .kanan{
+     flex: 80%;
+     background-color:white;
+     padding: 10px;
+ }
+ .atas{
+     border-bottom: 2px solid black;
+ }
+ .Statistik{
+     display: flex;
+     justify-content: space-around;
+     padding-bottom: 20px;
+     border-bottom: 1px solid grey;
+ }
+ .kotak1 {
+    background-color:rgb(61, 137, 206);
+    border:1px solid black;
+    border-radius:  5px;
+    padding: 5px;
+    width: 150px;
+    height: 90px;
+    padding-bottom: 15px;
+}
+.kotak1 img{
+    position: relative;
+    width: 25px;
+    height: 25px;
+    top: 20px;
+}
+.kotak1 h3{
+    text-align: center;
+    border-bottom :1px solid black ;
+}
+.user{
+    margin-top: -20px;
+    display: flex;
+    justify-content: space-around;
+}
+.kotak2{
+    background-color: rgb(16, 247, 178);
+    border:1px solid black;
+    border-radius:  5px;
+    padding: 5px;
+    width: 150px;
+    height: 90px;
+    padding-bottom: 15px;
+}
+.kotak2 h4{
+    text-align: center;
+    border-bottom :1px solid black ;
+}
+.kotak2 img{
+    position: relative;
+    width: 25px;
+    height: 25px;
+    top: 20px;
+}
+.kotak3{
+    background-color: rgb(247, 75, 75);
+    border:1px solid black;
+    border-radius:  5px;
+    padding: 5px;
+    width: 150px;
+    height: 90px;
+    padding-bottom: 15px;
+}
+.kotak3 h4{
+    text-align: center;
+    border-bottom :1px solid black ;
+}
+.kotak3 img{
+    position: relative;
+    width: 25px;
+    height: 25px;
+    top: 20px;
+}
+.bawah{
+    padding-top: 40px;
+    background-color: white;
+    display: flex;
+
+}
+table{
+    border: 1px solid black;
+    width: 900px;
+}
+th{
+    border-bottom: 1px solid black;
+    background-color:grey;
+}
+
+.container{
+    background-color: white;
+    text-align: center
+}
+.btn{
+    padding-left: 10px;
+}
+button{
+    border-radius: 5px;
+    background-color: gray;
+}
+.judul{
+    font-size: 26px;
+    padding-left: 300px;
+    color: black;
+}
+.footer{
+    text-align: center;
+    padding: 10px;
+}

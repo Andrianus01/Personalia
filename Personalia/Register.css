@@ -1,0 +1,77 @@
+body{
+    background-color:#7cc0d8;
+    background-position: center;
+}
+.header{
+    text-align: center;
+}
+.header img{
+    height: 80px;
+    width: 250px;
+    margin-top: 50px;
+}
+.content h2{
+    text-align: center;
+}
+.content{
+    background :rgba(255,255,255,.2) ;
+    position: relative;
+    margin: auto;
+    width: 450px;
+    height: 250px;
+    margin-top: 20px;
+    
+}
+.content h2{
+    font-size: 25px;
+}
+form{
+    padding-top: 5px;
+    color:black;
+    font-size: 18px;
+    margin: 40px;
+    margin-bottom: 10px;
+    top: 20px;
+    margin-right: 0px;
+}
+#name{
+    position: relative;
+    padding: 0 22px;
+    left: 66px;
+    top: -5px;
+    line-height: 0px;
+    width: 200px;
+}
+#Email{
+    position: relative;
+    padding: 0 22px;
+    left: 65px;
+    top: -3px;
+    line-height: 0px;
+    width: 200px;
+}
+#address{
+    position: relative;
+    padding: 0 22px;
+    left: 48px;
+    top: -5px;
+    line-height: 0px;
+    width: 200px;
+}
+
+#DateOfBirth{
+    position: relative;
+    padding: 0 22px;
+    left: 5px;
+    top: -3px;
+    line-height: 10px;
+    width: 200px;
+}
+#Phone{
+    position: relative;
+    padding: 0 22px;
+    left: 63px;
+    top: -3px;
+    line-height: 10px;
+    width: 200px;
+}
